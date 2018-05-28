@@ -1,0 +1,243 @@
+header {
+    background-color: #ffffff;
+    text-align: left;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 60px;
+    border: 1px solid #cccccc;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 3px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    font-size: 16px;
+    color: #cccccc;
+    height: 70px;
+    float: right; 
+    margin-left: 500px;
+    margin-right: 40px;
+    padding-top: 27px;
+    position: fixed;
+    text-align: right;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline;
+    position: center;
+    background-color: #4AAAA5;
+    margin-left: 20%;
+    text-align: center;
+    padding: 32px 30px;
+}
+
+body {
+    background-image: url("assets/images/dust_scratches/dust_scratches.png");
+    position:relative;
+    width: 100%;
+    padding: 30px;
+}
+
+#content {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #777777;
+    vertical-align: middle;
+    margin-top: 60px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 20px;
+    box-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+#portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+    width: 800px;
+    font-size: 20px;
+    color: #777777;
+    vertical-align: middle;
+    margin-top: 60px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 100px;
+    padding: 20px;
+    box-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+#contact {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    font-size: 20px;
+    color: #777777;
+    vertical-align: middle;
+    margin-top: 60px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 200px;
+    padding: 20px;
+    box-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+table {
+    width: 400px;
+    position: relative;
+    float:left; 
+    margin: -30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+th {
+    height: 5px;
+    align-items: left;
+}
+
+td {
+    height: 5px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #4AAAA5;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    background-color: #4AAAA5;
+    color: #ffffff;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+/*I couldn't find a way to fix the overlay text-boxes on the images in the given amount of time*/
+
+
+form {
+    float: center;
+    clear: center;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #4AAAA5;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4AAAA5;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 95%;
+    border: 0;
+    border-top: 3px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    float: left;
+    margin: 30px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray
+}
+
+input [type=text], textarea {
+    width: 936px;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input [type=submit] {
+    background-color: #4AAAA5;
+    color: #ffffff;
+    padding: 20px 30px;
+    cursor: pointer;
+
+}
+
+#message {
+    width: 774px;
+    height: 150px;
+}
+
+footer {
+    position: absolute;
+    z-index: 10;
+    clear: both;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color: #666666;
+    height: 25px;
+    width: 100%;
+    border-top: 5px solid #4AAAA5;
+    font-size: 6px;
+    margin-top: 100px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/*one of the problems I'm facing is that the footer won't get anchored to the bottom of the page only on the Contact webpage*/
