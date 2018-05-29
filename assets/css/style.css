@@ -57,7 +57,7 @@ h1 {
 }
 
 body {
-    background-image: url("assets/images/dust_scratches/dust_scratches.png");
+    background-image: url("../images/dust_scratches/dust_scratches.png");
     position:relative;
     width: 100%;
     padding: 30px;
@@ -112,26 +112,10 @@ body {
     border: 1px solid #dddddd;
 }
 
-table {
-    width: 400px;
-    position: relative;
-    float:left; 
-    margin: -30px;
-}
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-}
-
-th {
-    height: 5px;
-    align-items: left;
-}
-
-td {
-    height: 5px;
 }
 
 .container {
@@ -140,15 +124,14 @@ td {
     color: #4AAAA5;
 }
 
-h4 {
+.bottom-center {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     position: absolute;
-    display: inline;
+    bottom: 20%;
+    left: 50%;
     background-color: #4AAAA5;
     color: #ffffff;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
 }
 
 /*I couldn't find a way to fix the overlay text-boxes on the images in the given amount of time*/
