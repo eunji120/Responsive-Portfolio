@@ -158,7 +158,7 @@ button {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
-    font-weight: bold;
+    font-weight: bold !important;
     color: #4AAAA5;
 }
 
@@ -265,3 +265,9 @@ footer {
 }
 
 /*one of the problems I'm facing is that the footer won't get anchored to the bottom of the page only on the Porfolio webpage*/
+/* Things I need to fix
+- positioning of nav bar
+- h1 aligned with the header
+- overlay texts on the images
+- scrolling
+- anchoring the footer to the bottom */
