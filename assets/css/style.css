@@ -39,15 +39,15 @@ nav {
     margin-left: 500px;
     margin-right: 40px;
     padding-top: 27px;
-    position: fixed;
+    position: relative;
     text-align: right;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-size: 34px;
-    font-weight: bold;
-    color: #ffffff;
+    font-weight: bold !important;
+    color: #ffffff !important;
     display: inline;
     position: center;
     background-color: #4AAAA5;
@@ -119,8 +119,9 @@ body {
 }
 
 .container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    text-align: center;
+    text-align: left;
     color: #4AAAA5;
 }
 
@@ -129,8 +130,9 @@ body {
     font-size: 20px;
     position: absolute;
     bottom: 20%;
-    left: 50%;
+    left: 20%;
     background-color: #4AAAA5;
+    padding: 8px 70px;
     color: #ffffff;
 }
 
